@@ -1,0 +1,52 @@
+html {
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  min-height: 100%;
+
+  background: #fff;
+
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 1em;
+  color: #d5dee0;
+}
+
+a {
+  text-decoration: none; 
+}
+
+a:hover {
+  opacity: .7;
+}
+
+.name { color: #04756F; } 
+.uc { color: #D90000; }
+.cs { color: #85DB18; }
+.v4vr { color: #4C0F41; }
+.web { color: #FF2D00; }
+.resume { color: #FF8C00; }
+.email { color: #4C1B1B; }
+.phone { color: #002635; }
+
+.email:hover:after {
+  content: ': KLUSIT@MAIL.UC.EDU';
+}
+.phone:hover:after {
+  content: ': (513) 484-4521';
+}
+
+.container {
+  max-width: 990px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media all and (max-width: 480px) {
+  body {
+    font-size: 20px;
+  }
+}
